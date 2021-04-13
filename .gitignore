@@ -1,1 +1,7 @@
-site
+# don't include the rendered directory into the commits
+site/
+# recommended python excludes
+# byte-compiled / optimized / dll files
+__pycache__/
+*.py[cod]
+*$py.class
